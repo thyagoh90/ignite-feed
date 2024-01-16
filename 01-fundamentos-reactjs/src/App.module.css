@@ -1,0 +1,10 @@
+.wrapper {
+    max-width: 70rem;
+    margin: 2rem auto;
+    padding: 0 1rem;
+
+    display: grid; /* usado quando tiver mais de um elemendo (aside e main, por exemplo) */
+    grid-template-columns: 256px 1fr; /* 1fr significa que a segunda coluna terá um tamanho flexivel de acordo com a tela do usuario */
+    gap: 2rem; /* espaçamento entre as duas colunas */
+    align-items: flex-start;
+}
